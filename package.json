@@ -8,6 +8,6 @@
     "site:build": "confluence-website build-space ${CONFLUENCE_SPACE_KEY} --assets ./assets"
   },
   "devDependencies": {
-    "@labset/confluence-website": "^0.0.6"
+    "@labset/confluence-website": "^0.0.7"
   }
 }
