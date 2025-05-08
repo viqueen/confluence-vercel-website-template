@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run site:extract && npm run site:build",
+  "outputDirectory": "output/site/website",
+  "installCommand": "npm ci"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "confluence-vercel-website",
+  "iconUrl": "/assets/images/logo.png",
+  "name": "confluence-vercel-website",
+  "theme": {
+    "name": "confluence-vercel-website",
+    "backgroundColor": "rgb(66,34,31)",
+    "highlightColor": "rgb(255,236,235)",
+    "mode": "light"
+  }
+}
