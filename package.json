@@ -4,8 +4,8 @@
   "scripts": {
     "site:env": "confluence-website init-env",
     "site:init": "confluence-website init-site",
-    "site:extract": "confluence-website extract-space website",
-    "site:build": "confluence-website build-space website --assets ./assets"
+    "site:extract": "confluence-website extract-space ${CONFLUENCE_SPACE_KEY}",
+    "site:build": "confluence-website build-space ${CONFLUENCE_SPACE_KEY} --assets ./assets"
   },
   "devDependencies": {
     "@labset/confluence-website": "^0.0.6"

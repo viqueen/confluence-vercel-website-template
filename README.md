@@ -4,7 +4,7 @@ built with [confluence-website](https://github.com/viqueen/confluence-website)
 
 ### vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/viquen/confluence-vercel-website-template&env=CONFLUENCE_USERNAME,CONFLUENCE_API_TOKEN,CONFLUENCE_SITE_NAME&envDescription=Your+Confluence+Username,Your+Confluence+API+Key,Your+Confluence+Site+Name)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/viquen/confluence-vercel-website-template&env=CONFLUENCE_USERNAME,CONFLUENCE_API_TOKEN,CONFLUENCE_SITE_NAME,CONFLUENCE_SPACE_KEY&envDescription=Your+Confluence+Username,Your+Confluence+API+Key,Your+Confluence+Site+Name,Your+Confluence+Space+Key)
 
 ### structure your content
 
