@@ -1,18 +1,17 @@
 ## confluence-vercel-website-template
 
-built with [confluence-website](https://github.com/viqueen/confluence-website)
-
 ### vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/viquen/confluence-vercel-website-template&env=CONFLUENCE_USERNAME,CONFLUENCE_API_TOKEN,CONFLUENCE_SITE_NAME,CONFLUENCE_SPACE_KEY&envDescription=Your+Confluence+Username,Your+Confluence+API+Key,Your+Confluence+Site+Name,Your+Confluence+Space+Key)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/viquen/confluence-vercel-website-template&env=CONFLUENCE_USERNAME,CONFLUENCE_API_TOKEN,CONFLUENCE_SITE_NAME,CONFLUENCE_SPACE_KEY,CUSTOM_DOMAIN&envDescription=Your+Confluence+Username,Your+Confluence+API+Key,Your+Confluence+Site+Name,Your+Confluence+Space+Key,Your+Custom+Domain)
 
 ### structure your content
 
-[confluence-website](https://github.com/viqueen/confluence-website) is a static site generator for Confluence;
-it extracts content from a target Confluence space and includes
+This is built with [confluence-website](https://github.com/viqueen/confluence-website) which is a static site generator for Confluence.
+
+It extracts content from a target Confluence space and includes
 
 - the space homepage
-- the pages included in a folder named `public`
+- the pages under a folder named `public`
 - the space blogs if any
 
 ### environment
