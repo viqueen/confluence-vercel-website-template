@@ -6,7 +6,14 @@ built with [confluence-website](https://github.com/viqueen/confluence-website)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/viquen/confluence-vercel-website-template&env=CONFLUENCE_USERNAME,CONFLUENCE_API_TOKEN,CONFLUENCE_SITE_NAME&envDescription=Your+Confluence+Username,Your+Confluence+API+Key,Your+Confluence+Site+Name)
 
+### structure your content
 
+[confluence-website](https://github.com/viqueen/confluence-website) is a static site generator for Confluence;
+it extracts content from a target Confluence space and includes
+
+- the space homepage
+- the pages included in a folder named `public`
+- the space blogs if any
 
 ### environment
 
