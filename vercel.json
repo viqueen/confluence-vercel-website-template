@@ -1,5 +1,5 @@
 {
   "buildCommand": "npm run site:extract && npm run site:build",
-  "outputDirectory": "output/site/website",
+  "outputDirectory": "output/site/${CONFLUENCE_SPACE_KEY}",
   "installCommand": "npm ci"
 }
