@@ -1,23 +1,5 @@
 {
   "buildCommand": "npm run site:extract && npm run site:build",
   "outputDirectory": "output/site",
-  "installCommand": "npm ci",
-  "env": {
-    "CONFLUENCE_USERNAME": {
-      "type": "plain",
-      "value": ""
-    },
-    "CONFLUENCE_API_TOKEN": {
-      "type": "secret",
-        "value": ""
-    },
-    "CONFLUENCE_SITE_NAME": {
-        "type": "plain",
-        "value": ""
-    },
-    "CONFLUENCE_SPACE_KEY": {
-        "type": "plain",
-        "value": ""
-    }
-  }
+  "installCommand": "npm ci"
 }

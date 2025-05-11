@@ -1,0 +1,25 @@
+{
+  "name": "confluence-vercel-website",
+  "env": {
+    "CONFLUENCE_USERNAME": {
+      "type": "plain",
+      "description": "Confluence username",
+      "value": ""
+    },
+    "CONFLUENCE_API_TOKEN": {
+      "type": "secret",
+      "description": "Confluence API token",
+      "value": ""
+    },
+    "CONFLUENCE_SITE_NAME": {
+      "type": "plain",
+      "description": "Confluence site name",
+      "value": ""
+    },
+    "CONFLUENCE_SPACE_KEY": {
+      "type": "plain",
+      "description": "Confluence space key",
+      "value": ""
+    }
+  }
+}
