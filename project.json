@@ -1,25 +1,29 @@
 {
   "name": "confluence-vercel-website",
-  "env": {
-    "CONFLUENCE_USERNAME": {
-      "type": "plain",
+  "env": [
+    {
+      "name": "CONFLUENCE_USERNAME",
       "description": "Confluence username",
-      "value": ""
+      "required": true,
+      "type": "plain"
     },
-    "CONFLUENCE_API_TOKEN": {
-      "type": "secret",
+    {
+      "name": "CONFLUENCE_API_TOKEN",
       "description": "Confluence API token",
-      "value": ""
+      "required": true,
+      "type": "secret"
     },
-    "CONFLUENCE_SITE_NAME": {
-      "type": "plain",
-      "description": "Confluence site name",
-      "value": ""
-    },
-    "CONFLUENCE_SPACE_KEY": {
-      "type": "plain",
+    {
+      "name": "CONFLUENCE_SPACE_KEY",
       "description": "Confluence space key",
-      "value": ""
+      "required": true,
+      "type": "plain"
+    },
+    {
+      "name": "CONFLUENCE_SITE_NAME",
+      "description": "Confluence site name",
+      "required": true,
+      "type": "plain"
     }
-  }
+  ]
 }
