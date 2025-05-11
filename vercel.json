@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run site:extract && npm run site:build",
-  "outputDirectory": "output/site/${CONFLUENCE_SPACE_KEY}",
+  "outputDirectory": "output/site",
   "installCommand": "npm ci",
   "env": {
     "CONFLUENCE_USERNAME": {
